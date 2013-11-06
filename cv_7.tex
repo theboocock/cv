@@ -1,0 +1,158 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{James} % Your first name
+\familyname{Boocock} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Apartment 3, 161 High Street}{Dunedin, New Zealand}
+\mobile{+64221201361}
+\email{smilefreak@gmx.com}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2012--2013}{Diploma for Graduates}{The University of Otago}{}{}{Genetics and Statistics}  % Arguments not required can be left empty
+\cventry{2008--2012}{Bachelor of Science}{The University of Otago}{}{}{Computer Science}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\cventry{Mid-2012--Present}{Assosciate Research Fellow}{Biochemistry Department}{University of Otago}{}{Researching Structural variation in plants and human DNA sequence. The project involved analysing full genome sequence of apple varieties and developing a method for assessing significance of polymorphic copy number regions. Analysing the full 1000 genomes dataset, processing initially on amazon using a XML-RPC server for dispatch creating summary data for download and using NESI Load Leveler HPC resources to assess copy-number variation. Both parts of this project are still in progress
+\\
+\\
+Skills Required
+\begin{itemize}
+\item Large dataset processing.
+\item Parralelisation of tools.
+\item HPC usage and scripting
+\item Python
+\item Bash
+\item Unix Command-line
+\end{itemize}}
+
+%------------------------------------------------
+
+\cventry{2012--2013}{Summer Studentship}{Summer Of eResearch}{Biochemistry Department}{University of Otago}{Worked on an interface between galaxy and IBM load leveler. Other work from the project involved developing a bioinformatics pipeline for analyses of selection signatures. The pipeline is currently in preparation for publication and can be found. \href{https://github.com/smilefreak/MerrimanSelectionPipeline}{here}
+}
+\cventry{2012--2013}{Summer StudentShip}{Summer Of eResearch}{Biochemistry Department}{University of Otago}{
+The project focused on maintaining a local galaxy bioinformatics instance. Added a large amount of tools to the local galaxy instance requiring scripting in bash and python. The github repo for that project can be found \href{https://github.com/smilefreak/OtagoGalaxy}{here}. Ongoing work from the project involved developing a bioinformatics pipeline for analyses of selection signatures. The pipeline is currently in preparation for publication and can be found. \href{https://github.com/smilefreak/MerrimanSelectionPipeline}{here}
+}
+\cventry{2011-2013}{Demonstrating}{Computer Science Department}{University Of Otago}{}{
+Demonstrated three computer science papers first and second year over three years focusing on algorithms and datastructures. C and Java were the languages used for these papers. 
+}
+\cventry{2011-2013}{Private Tutoring}{Computer Science}{University of Otago}{}{
+Maintained a posistion tutoring two students through many computer science papers in the second and third year of their computer science degree.
+}
+%------------------------------------------------
+
+\section{Academic}
+\cvitem{2013}{In preparation Selection Pipeline}
+\cvitem{2013}{Oral Presentation at the California Business Conference}
+\cvitem{2013}{Poster at the Annual Business Conference in Oregon}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\cvitem{Basic}{\textsc{Linear Algebra}}
+\cvitem{Intermediate}{\textsc{Java},\textsc{C},\textsc{C++},\textsc{R},Linux System Administration, Parralel Programming,\textsc{IBM Load Leveler},Statistics}
+\cvitem{Advanced}{Python, Unix Command-line}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Guitar}{Fitness}
+\cvlistdoubleitem{OpenSource}{Reading}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+\iffalse
+\clearpage
+
+\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+\date{\today} % Letter date
+\opening{Dear Sir or Madam,} % Opening greeting
+\closing{Sincerely yours,} % Closing phrase
+\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+\makelettertitle % Print letter title
+
+\lipsum[1-3] % Dummy text
+
+\makeletterclosing % Print letter signature
+\fi
+%----------------------------------------------------------------------------------------
+
+\end{document}
