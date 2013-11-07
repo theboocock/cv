@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.10.21)  7 NOV 2013 16:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.10.21)  7 NOV 2013 19:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -531,76 +531,48 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 60.
 
-
-LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 69.
-
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-
- []
-
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 100.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 106.
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 106.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 100.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
  (./cv_7.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
-
-
-Package rerunfilecheck Warning: File `cv_7.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cv_7.out':
-(rerunfilecheck)             Before: ED7722E1171445A94EA431B680D62508;745
-(rerunfilecheck)             After:  F08B91AE35C5F1BE0B659FAA5DAC49ED;745.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
+Package rerunfilecheck Info: File `cv_7.out' has not changed.
+(rerunfilecheck)             Checksum: F08B91AE35C5F1BE0B659FAA5DAC49ED;745.
  ) 
 Here is how much of TeX's memory you used:
- 12176 strings out of 495031
- 176494 string characters out of 6181530
+ 12161 strings out of 495031
+ 176271 string characters out of 6181530
  386331 words of memory out of 5000000
- 15173 multiletter control sequences out of 15000+600000
- 53701 words of font info for 65 fonts, out of 8000000 for 9000
+ 15168 multiletter control sequences out of 15000+600000
+ 49980 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 42i,12n,67p,770b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,13n,67p,770b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/marvosym/marvosym.pfb>
-Output written on cv_7.pdf (2 pages, 172086 bytes).
+c/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmsso17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
+Output written on cv_7.pdf (3 pages, 151601 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 17977 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 95 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
+ 15929 words of extra memory for PDF output out of 17280 (max. 10000000)
 
