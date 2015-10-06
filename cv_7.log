@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.2)  6 OCT 2015 20:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.2)  6 OCT 2015 20:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -491,8 +491,11 @@ LaTeX Info: Redefining \nameref on input line 50.
 \@outlinefile=\write3
 \openout3 = `cv_7.out'.
 
+\pagenumberwidth=\skip70
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 50.
 \makecvtitlepicturebox=\box31
-\makecvtitlepicturewidth=\skip70
+\makecvtitlepicturewidth=\skip71
 
 Underfull \hbox (badness 10000) in paragraph at lines 52--52
 
@@ -555,32 +558,20 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 141.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
  [3]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
  (./cv_7.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
-
-
-Package rerunfilecheck Warning: File `cv_7.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cv_7.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  ACCB9C48976D7D1453608A30C7F814EA;873.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `cv_7.out' has not changed.
+(rerunfilecheck)             Checksum: ACCB9C48976D7D1453608A30C7F814EA;873.
  ) 
 Here is how much of TeX's memory you used:
- 12120 strings out of 493089
- 176814 string characters out of 6134842
- 399081 words of memory out of 5000000
- 15400 multiletter control sequences out of 15000+600000
+ 12130 strings out of 493089
+ 176924 string characters out of 6134842
+ 399104 words of memory out of 5000000
+ 15410 multiletter control sequences out of 15000+600000
  50182 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,13n,67p,770b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -593,10 +584,10 @@ ic/lm/lmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lm
 sso10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsso17.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on cv_7.pdf (3 pages, 155320 bytes).
+Output written on cv_7.pdf (3 pages, 156095 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 108 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
  13 named destinations out of 1000 (max. 500000)
- 15873 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 15945 words of extra memory for PDF output out of 17280 (max. 10000000)
 
