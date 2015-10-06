@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.2)  6 OCT 2015 20:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.2)  6 OCT 2015 20:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -491,11 +491,8 @@ LaTeX Info: Redefining \nameref on input line 50.
 \@outlinefile=\write3
 \openout3 = `cv_7.out'.
 
-\pagenumberwidth=\skip70
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 50.
 \makecvtitlepicturebox=\box31
-\makecvtitlepicturewidth=\skip71
+\makecvtitlepicturewidth=\skip70
 
 Underfull \hbox (badness 10000) in paragraph at lines 52--52
 
@@ -529,7 +526,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 60.
 
-Underfull \hbox (badness 1496) in paragraph at lines 84--84
+Underfull \hbox (badness 1496) in paragraph at lines 85--85
 []\T1/lmss/m/n/10.95 (+20) Creation of a pipeline for pro-cess-ing mod-ern and 
 an-cient DNA sam-ples
  []
@@ -537,42 +534,54 @@ an-cient DNA sam-ples
 (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []\T1/lmss/m/n/10.95 (+20) Development of Shiny app for per-form-ing SNP vari-a
 nt QC
  []
 
 
-Underfull \hbox (badness 5802) in paragraph at lines 100--100
+Underfull \hbox (badness 5802) in paragraph at lines 101--101
 []\T1/lmss/m/n/10.95 (+20) Creation of a Python pack-age for per-form-ing finem
 ap-ping anal-y-sis
  []
 
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 102.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 103.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 102.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 103.
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 141.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
  (./cv_7.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
-Package rerunfilecheck Info: File `cv_7.out' has not changed.
-(rerunfilecheck)             Checksum: ACCB9C48976D7D1453608A30C7F814EA;873.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
+
+
+Package rerunfilecheck Warning: File `cv_7.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `cv_7.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  ACCB9C48976D7D1453608A30C7F814EA;873.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 12132 strings out of 493089
- 176948 string characters out of 6134842
- 399104 words of memory out of 5000000
- 15410 multiletter control sequences out of 15000+600000
- 50283 words of font info for 61 fonts, out of 8000000 for 9000
+ 12120 strings out of 493089
+ 176814 string characters out of 6134842
+ 399081 words of memory out of 5000000
+ 15400 multiletter control sequences out of 15000+600000
+ 50182 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,13n,67p,770b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
@@ -584,10 +593,10 @@ ic/lm/lmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lm
 sso10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsso17.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on cv_7.pdf (3 pages, 156066 bytes).
+Output written on cv_7.pdf (3 pages, 155320 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  13 named destinations out of 1000 (max. 500000)
- 15945 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 15873 words of extra memory for PDF output out of 17280 (max. 10000000)
 
