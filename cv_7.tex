@@ -41,9 +41,9 @@
 \familyname{Boocock} % Your last name
 % All information in this block is optional, comment out any lines you don't need
 \title{Curriculum Vitae}
-\address{Apartment 3, 161 High Street}{Dunedin, New Zealand}
+\address{36 Duncan Street}{Dunedin, New Zealand}
 \mobile{+64221201361}
-\email{smilefreak@gmx.com}
+\email{james.boocock@otago.ac.nz}
 
 %----------------------------------------------------------------------------------------
 
@@ -57,6 +57,7 @@
 
 \section{Education}
 
+\cventry{2014--2016 (expected)}{Masters}{The University of Otago}{Dunedin}{NZ}{Genetics}
 \cventry{2012--2013}{Diploma for Graduates}{The University of Otago}{Dunedin}{NZ}{Genetics and Statistics}  % Arguments not required can be left empty
 \cventry{2008--2012}{Bachelor of Science}{The University of Otago}{Dunedin}{NZ}{Computer Science}
 
@@ -67,60 +68,80 @@
 \vspace{-4mm}
 \section{Programming Skills}
 
-\cvitem{Basic}{ SQL,Amazon API Tools}
-\cvitem{Intermediate}{Java, C, C++, R, Linux System Administration, Parallelisation, IBM Load Leveler, Statistics, Git, Bioinformatics Tools}
-\cvitem{Advanced}{Python, Unix Command-line}
+\cvitem{Basic}{SQL, Amazon API Tools, Circos}
+\cvitem{Intermediate}{Java, C, C++, Linux System Administration, Parallelisation, IBM Load Leveler, Git, visualisation packages (ggplot2, circos, Gvis, Inkscape, Base R)}
+\cvitem{Advanced}{Python, Unix Command-line, R, RStudio, Bioinformatics software (samtools, bcftools, pseq, XHMM, bedtools, ...)}
 \section{Background}
-\cvitem{}{My work to date has utilised my knowledge of computer science and Unix systems to implement HPC solutions for problems in genomic data analysis and human health applications. This work involved close collaboration with biologists, statisticians and other computer scientists.}
-\section{Work Experience}
+\cvitem{}{I utilised my knowledge of computer science, stastics, and genetics to answer questions related to the genetics of complex disease and agriculural. My Masters project focuses the impact that copy number variation has on gout and the apple genome. 
+\section{Employment}
 
+\cventry{2015--Present}{Associate Research Fellow}{Anatomy Department}{University of Otago}{}{}
+\cvitem{Summary}{
+Responsible for the processing and analysis of sequenced ancient and modern DNA samples in the Matisoo-smith laboratory at the University of Otago.
+}
+\cvitem{Outputs}{
+Creation of a pipeline for processing modern and ancient DNA samples \httplink{https://github.com/smilefreak/ancient\_dna\_pipeline}.   
+}
 \cventry{2013--Present}{Assosciate Research Fellow}{Biochemistry Department}{University of Otago}{}{}
-\cvitem{Summary}{Investigating Copy-number variation in plant and human DNA sequence.}
-\cvitem{Current Work}{
-\vspace{-4mm}
+\cvitem{Summary}{
 \begin{itemize}
-\item Developed a custom XML-RPC server using Python for processing data from the 1000 Genomes Project on  Amazon EC2 for further processing on local HPC instances. 
-\item Used the R programming language to analyse copy number variation in apple DNA sequence data.
-\item Processing large genomic data sets using Unix command-line tools.
-\end{itemize}}
-
-%------------------------------------------------
-
+\item Rare and common variant analysis of captured sequence data from 427 hyperuricaemic cases and 455 controls. 
+\item Causal variant analysis of a published Uric acid GWAS dataset using fine mapping software. 
+\item Rare and common variant analysis of the mitochondrial genomes of people of Polynesian ancestry.
+\end{itemize}
+}
+\cvitem{Outputs}{
+\begin{itemize}
+\item Development of Shiny app for performing SNP variant QC 
+    \httplink{https://github.com/smilefreak/siteQCresequencing} 
+\item Creation of a Python package for performing finemapping analysis  
+    \httplink{https://github.com/smilefreak/fine\_mapping\_pipeline}
+\end{itemize}
+}
 \vspace{-5mm}
 \cventry{2012--2013}{Summer Studentship}{Summer Of eResearch}{}{University of Otago and NZ eScience Infrastructure (NESI)}{}
-\cvitem{Summary}{Worked on an interface between Galaxy and Galaxy using Python. Other work from the project involved developing a bioinformatics pipeline for analyses of selection signatures in genomic data. The pipeline is currently in preparation for publication and can be found at the url \httplink{https://github.com/smilefreak/MerrimanSelectionPipeline}}
-\cvitem{Outputs}{
-\vspace{-4mm}
-\begin{itemize}
-\item Developed a prototype version of a Galaxy Galaxy interface using grython a jython version of Grisu which is an open source Java framework designed to sit on top of grid middleware. 
-\item Parallelisation of genomic selection tools for standard use, and development of scripts to take advantage of the NeSI IBM load leveler cluster.
-\item Python program to run genomic selection tools and process the intermediate data files.
-\end{itemize}}
-\vspace{-5mm}
+\cvitem{Summary}{Worked on an interface between Galaxy and Galaxy using Python. Other work from the project involved developing a bioinformatics pipeline for analyses of selection signatures in genomic data. The pipeline has been published in Frontiers in genetics \httplink{https://github.com/smilefreak/MerrimanSelectionPipeline}.}
 \cventry{2012--2013}{Summer Studentship}{Summer Of eResearch}{}{University of Otago and NZ eScience Infrastructure (NeSI)}{}
 \cvitem{Summary}{
-The project focused on maintaining a local Galaxy bioinformatics instance. Added a large amount of tools to the local Galaxy instance (Galaxy is a web interface for bioinformatics software) requiring scripting in Bash and Python. The github repo for that project can be found at the url \httplink{https://github.com/smilefreak/OtagoGalaxy}, this project remained a common fixture throughout all subsequent employment.
-}
-\cvitem{Outputs}{
-\vspace{-4mm}
-\begin{itemize}
-\item Wrapped or created tools at the request of lab members and faculty to the Galaxy instance. The main languages used were Bash and Python with some C and Java. 
-\item Server setup and administration of the Galaxy server, requiring extensive Unix command-line usage.  
-\end{itemize}}
-
+The project focused on maintaining a local Galaxy bioinformatics instance. Added a large amount of tools to the local Galaxy instance (Galaxy is a web interface for bioinformatics software) requiring scripting in Bash and Python \httplink{https://github.com/smilefreak/OtagoGalaxy}.}
 \vspace{-5mm}
-\cventry{2011-2013}{Laboratory teaching assistant}{Computer Science}{University Of Otago}{}{}
-\cvitem{Summary}{
-Assisted with laboratories for first and second year over three years focusing on algorithms, datastructures and Object-orientated programming. C and Java were the languages used for these papers. 
+\section{Teaching}
+\cventry{2015--Present}{Mozilla Study Group Coordinator}{}{University of Otago}{}{}
+\cvitem{}{
+Coordinator and founding member of the University of Otago Mozilla Study Group \httplink{http://smilefreak.github.io/studyGroup/}.}
+
+\cventry{2015--Present}{Instructor}{Software carpentry}{}{}{}
+\cvitem{}{
+Trained software carpentry instructor capable of teaching the Python, Shell, R, Bash, Git, or Database modules. To date, have been involved in organising and instructing at one workshop locally.
 }
-\cventry{2011-2013}{Private Tutoring}{Computer Science}{University of Otago}{}{}
-\cvitem{Summary}{
-Tutored two students through many computer science papers in the second and third year of their computer science degree. Knowledge of Java, C and SQL was required.
+\cventry{2015 April}{Guest Lecturer}{Biochemistry Otago}{University of Otago}{}{}
+\cvitem{}{
+    Delivered a lecture to a 4th year statistical bioinformatics paper (STAT435). Content was focused on Next-Generation sequencing (NGS) technologies and core computing skills, such as the Shell and R programming.
+}
+\cventry{2014--2015}{Lego robot tutor}{Computer Science}{University of Otago}{}{}
+\cvitem{}{
+    Taught 8-12 year old children basic programming and problem solving using Lego Mindstorms robots 
+}
+\cventry{2011--2013}{Laboratory teaching assistant}{Computer Science}{University Of Otago}{}{}
+\cvitem{}{
+    Demonstrated for first and second year CS courses that had course content involving algorithms, datastructures, and programming. Knowledge of C, Java, and python was required 
+}
+\cventry{2011--2013}{Private Tutoring}{Computer Science}{University of Otago}{}{}
+\cvitem{}{
+Privately tutored 2nd and 3rd year computer science students. Knowledge of Java, C, and SQL was required.
 }
 %------------------------------------------------
+\section{Awards}
+\cvitem{2014}{
+    Departmental stipend (\$13,000) for Masters degree
+}
 
 \section{Academic Outputs}
-\cvitem{2013}{\emph{M Cadzow, J Boocock, HT Nguyen, P Wilcox, TR Merriman and MA Black}. A bioinformatics workflow for detecting signatures of selection in genomic data (manuscript in preparation)} 
+\cvitem{2015}{\emph{Elzabeth A. Matisoo-Smith, Anna Gosling, James Boocock et al.} A European mitochondrial haplotype identified in ancient Phoenician remains from Carthage, North Africa (Submitted to the Journal of Archaelogical science)}
+\cvitem{2015}{\emph{J Boocock, D Chagn\'e, TR Merriman, M Black}, The distribution and impact of common copy-number variation in the genome of the domesticated apple, Malus x domestica Borkh (in review at BMC Genomics).}
+\cvitem{2015}{\emph{Karen Greig, James Boocock, Stefan Prost, et al}, Complete Mitochondrial Genomes of New Zealand's First Dogs (PLoS ONE)}
+\cvitem{2015}{\emph{S Sawaya, J Boocock, MA Black, NJ Gemmell}, Exploring possible DNA structures in real-time polymerase kinetics using Pacific Biosciences sequencer data (BMC bioinformatics).}
+\cvitem{2014}{\emph{M Cadzow, J Boocock, HT Nguyen, P Wilcox, TR Merriman and MA Black}. A bioinformatics workflow for detecting signatures of selection in genomic data (Frontiers in genetics), joint first author} 
 \cvitem{2013}{\emph{J Boocock, TR Merriman, MA Black and D Chagne}. Copy number variation in Malus x domestica (apple). Mapnet NZ Conference (Lincoln October 2013). }
 \cvitem{2013}{\emph{J Boocock, D Eyers, P Wilcox, TR Merriman and MA Black}. Connecting Genetics Researchers to NeSI, eResearchNZ Conference (Christchurch July 2013).}
 
@@ -142,7 +163,7 @@ Tutored two students through many computer science papers in the second and thir
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
 %----------------------------------------------------------------------------------------
-
+    
 \section{Interests}
 
 \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
@@ -173,5 +194,4 @@ Tutored two students through many computer science papers in the second and thir
 \makeletterclosing % Print letter signature
 \fi
 %----------------------------------------------------------------------------------------
-
 \end{document}
